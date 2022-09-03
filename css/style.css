@@ -120,4 +120,8 @@ body {
 	.btn-stop {
 		bottom: 5%;
 	}
+	.content-text {
+		font-size: 18px;
+		
+	}
 }
