@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  </head>
+
+
+
+  <body>
+    <div class="wrapper">
+      <div class="btn-play" id="btn-play" onclick=playSound('sound')><button></button></div>
+      <div class="btn-stop" id="btn-stop" onclick=stopSound('sound')><button></button></div>
+      <video  muted loop autoplay id="myV">
+        <source src="rain.mp4" type="video/mp4">
+      </video>
+      <audio autoplay controls id="sound">
+        <source src="Stan.mp3" type="audio/mp3">
+      </audio>
+      
+    
+      <div class="content">
+        <div class="content-text" > 
+        My tea's gone cold. I'm wondering why I<br><br>
+        Got out of bed at all<br><br>
+        The morning rain clouds up my window<br><br>
+        And I can't see at all<br><br>
+        And even if. I could it'll all be gray<br><br>
+        But your picture on my wall<br><br>
+        It reminds me, that it's not so bad<br><br>
+        It's not so bad<br><br>
+      </div>
+
+
+      </div>
+    
+
+
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
